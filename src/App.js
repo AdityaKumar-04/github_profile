@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Features from "./Components/Features";
+import Footer from "./Components/Footer";
+import Media from "./Components/Media";
+import Members from "./Components/Members";
+import Opensourse from "./Components/Opensourse";
+import Profile from "./Components/Profile";
+import Questions from "./Components/questions";
+import Topside from "./Components/Topside";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#18181B] box-border" >
+      <Topside />
+      <Profile />
+      <Features />
+      <Media />
+      <Opensourse />
+      <Questions />
+      <Members />
+      <Footer/>
     </div>
   );
 }
